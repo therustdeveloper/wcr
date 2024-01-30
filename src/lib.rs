@@ -45,7 +45,7 @@ fn run(mut args: Args) -> Result<()> {
         .iter()
         .all(|v| v == &false)
     {
-        args.words = true;
+        args.lines = true;
         args.words = true;
         args.bytes = true;
     }
